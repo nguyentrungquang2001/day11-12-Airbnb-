@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import AddItems from "./screens/AddItems";
+import Airbnb from "./screens/Airbnb";
+import Click from "./screens/Click";
+import Home from "./screens/Home";
+import { Hours } from "./screens/Hours";
+import Meme from "./screens/Meme";
+import Profiles from "./screens/Profiles";
+import Props from "./screens/Props";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Home /> */}
+      <Airbnb />
+      {/* <Hours /> */}
+      {/* <Props /> */}
+      {/* <Meme /> */}
+      {/* <Click /> */}
+      {/* <AddItems /> */}
+      {/* <Profiles /> */}
     </div>
   );
 }
